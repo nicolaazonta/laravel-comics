@@ -1,0 +1,32 @@
+header {
+    background-color: #ffffff;
+
+    & .line_bottom {
+        background-color: #0282F9;
+        height: 2px;
+        width: 80%;
+    }
+
+    & .active {
+        color: #0282F9;
+    }
+
+    & ul {
+        li {
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & span {
+                justify-self: center;
+            }
+
+            & div {
+                justify-self: end;
+            }
+
+        }
+
+    }
+}

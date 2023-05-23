@@ -1,0 +1,22 @@
+footer {
+    font-size: .75rem;
+    color: rgb(137, 131, 131);  
+    background-color: rgba(0, 0, 0, 0.481);
+    background-image: url('/../../img/footer-bg.jpg');  
+ 
+    & footer-bottom {
+        & img {
+            padding: 0 .25rem;
+        }
+    }    
+    & h5 {
+        text-transform: uppercase;
+        color: white;
+    }    
+    & ul {
+        text-align: left !important;
+    }
+    & .btn {
+        color: white;
+    }   
+}
