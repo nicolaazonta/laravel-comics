@@ -10,9 +10,12 @@
                 
             <div class="col">
                 <div class="card shadow text-center h-100">
-                    <h3 class="card-title">{{ $movie['title'] }}</h3>
 
+                    <img class="img-fluid " src="{{ $movie['thumb'] }}" alt="">
+                    
                 </div>
+
+                <h3 class="card-title">{{ $movie['title'] }}</h3>
             </div>
 
             @endforeach
