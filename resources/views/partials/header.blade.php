@@ -5,6 +5,7 @@
 
 <header>
     <div class="container d-flex justify-content-center align-items-center py-3">
+        <img src="{{ Vite::asset('resources/img/dc-logo.webp') }}" alt="">
         {{-- <div class="left_group">
             <div class="logo py-3">
                 <img class="img-fluid" src="../../img/dc-logo.png" alt="">
