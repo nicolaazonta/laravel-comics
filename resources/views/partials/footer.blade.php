@@ -3,9 +3,9 @@
 {{-- <section style="background-color: lightpink" class="d-flex justify-content-center align-content-center">
     <h2>footer</h2>
 </section> --}}
-<footer style="background-image: url('../../img/footer-bg.jpg')">
+<footer>
 
-    <footer-top>
+    <div>
         <div class="container">
             <div class="row py-2">
                 <div class="col-6">
@@ -40,9 +40,9 @@
                 </div>
             </div>
         </div>
-    </footer-top>
+    </div>
 
-    <footer-bottom>
+    <div>
         <div class="py-3 container d-flex justify-content-between">
 
             <div class="left_pack">
@@ -59,7 +59,7 @@
             </div> 
 
         </div>
-    </footer-bottom>
+    </div>
     
 </footer>
 
